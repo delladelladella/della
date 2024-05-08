@@ -1,0 +1,45 @@
+.profilePic{
+    border-radius: 50%;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    row-gap: 2rem;
+    margin: 100px auto 100px;
+  }
+
+.top-container{
+    background-color: #4D869C;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.bottom-container{
+    background-color: #4D869C;
+    padding: 50px 0 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    /* margin-top: 50px; */
+}
+
+body{
+    text-align: center;
+}
+
+a{
+    margin: 2rem;
+    font-size: 1.25rem;
+    color: #EEF7FF;
+}
+
+a:hover { 
+    text-decoration: none; 
+  } 
+
+  
